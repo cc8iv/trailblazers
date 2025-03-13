@@ -263,7 +263,7 @@ document.querySelector(".contact-form")
 
         btn.value = 'Sending...';
 
-        const serviceID = 'service_r2s1whb';
+        const serviceID = 'service_jyl0w4t';
         const templateID = 'template_emrom8e';
 
         emailjs.sendForm(serviceID, templateID, this)
