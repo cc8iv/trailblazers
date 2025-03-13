@@ -853,6 +853,9 @@ div.socials > a > img {
 
 /* ===== RESPONSIVENESS ===== */
 @media screen and (max-width: 800px) {
+    body {
+        font-size: 1.6lvh;
+    }
     /* nav section */
     nav {
         position: relative;
@@ -901,6 +904,12 @@ div.socials > a > img {
         align-items: center;
         flex-direction: column;
         gap: 20px;
+        width: 100%;
+    }
+
+    .start-journey-btn {
+        width: 90%;
+        font-size: 1.3lvh;
     }
 
     .hamburger {
@@ -945,29 +954,50 @@ div.socials > a > img {
     }
 
     .context-description{
-        width: 100%;
+        width: 80%;
         align-items: center;
         text-align: center;
+        font-size: 1.61lvh;
     }
 
     .objective-text-holder {
         display: flex;
         flex-direction: column;
         gap: 50px;
+        width: 80%;
     }
     ul.objective-text {
         align-items: center;
     }
 
+    .context-image:not(.objectives .context-image){
+            
+        width: 40%;
+        min-width: 250px;
+        height: 250px;
+    }
+
+    .course-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .course-desc-text {
+        font-size: 1.3lvh;
+    }
+    /* courses section */
+
 
     /* review section */
-    .review-container{
+    .review-container {
         width: 80%;
+        min-width: 200px;
         height: 80%;
-        padding: 20px;
+        padding: 30px;
     }
+
     .review-text{
-        font-size: 2.23lvh;
+        font-size: 1.3lvh;
         text-align: center;
     }
 
@@ -999,4 +1029,3 @@ div.socials > a > img {
     }
 
 }
-
