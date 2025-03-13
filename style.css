@@ -854,7 +854,7 @@ div.socials > a > img {
 /* ===== RESPONSIVENESS ===== */
 @media screen and (max-width: 800px) {
     body {
-        font-size: 1.6lvh;
+        font-size: 1.8lvh;
     }
     /* nav section */
     nav {
