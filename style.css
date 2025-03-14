@@ -1044,4 +1044,8 @@ div.socials > a > img {
         bottom: 8%;
     }
 
+    .footer {
+        font-size: 1.52lvh;
+    }
+
 }
