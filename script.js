@@ -45,7 +45,7 @@ function toggleMenu() {
 
 
 
-
+/*
 const lightMode = document.querySelector('.light-mode');
 const darkMode = document.querySelector('.dark-mode');
 const rollBox = document.querySelector('.roll-box');
@@ -96,7 +96,7 @@ toggleMode.addEventListener('click', () => {
     }
 }
 );
-
+*/
 
 
 const moreBtn = document.querySelector('.more-btn');
